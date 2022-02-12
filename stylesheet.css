@@ -1,0 +1,77 @@
+body{
+background-image:url(purple.gif);
+font-family:arial,arial black,verdana
+font-weight:bolder;
+border-color:teal;
+border-width:3px;
+border-style:double solid;
+padding:10px;
+	
+}
+h1,h2{
+color:White;
+
+background-image:url(waves.gif); 
+text-decoration:overline underline;
+
+}
+h1{
+	margin-bottom:20;
+	text-align:center;
+}
+h2{
+	margin-top:20px;
+
+}
+.highlight{
+	background-color:black;
+}
+.pic{
+	
+	height:200px;
+	width:300px;
+	margin-top:-5px;
+	border-radius=10px;
+
+	
+}
+p.intro{
+
+background-color:teal;
+background-image:url(sharkgif.gif);
+border-color:black;
+border-width:3px;
+border-style:solid;
+
+margin-left:400px;
+margin-top:-180px;
+
+}
+p{
+
+font-family:geneva,serif,verdana;
+font-size:30px;
+color:orange;
+background-image:url(deep.gif);
+border-color:black;
+border-width:3px;
+border-radius:20px;
+padding:20px;
+border-style:solid;
+
+}
+#paragraph4Homepage{
+	background-image:url(plant.gif);
+	border-color:orange;
+	border-width:thick;
+	border-style:ridged,dashed;
+}
+#shark{
+	background-image:url(plant.gif);
+}
+
+#tree{
+	background-image:url(fish.gif);
+
+	
+}
