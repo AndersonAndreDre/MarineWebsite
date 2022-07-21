@@ -3,17 +3,39 @@
 <head>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
-<body>
+<body >
+
+<script src="script.js"></script>
 <table
  align='Center'>
-<tr><td><button>Home</buttton></td><td><button>About</button></td><td><button>Menu</button></td><td><button>Sign up</button></td><td><button>Log in</button></td></tr>
+<tr><td><button id="readmode"  onclick="readFun()">Read mode</button></td><td><button >Home</buttton></td><td><button>About</button></td><td><button>Menu</button></td><td><button onclick="SignUpFun()">Sign up</button></td><td><button>Log in</button></td></tr>
 </table>
-<h1><span class="highlight">Marine Life</span></h1>
+<h1 ><span class="highlight">Marine Life</span></h1>
 <hr>
-<div id="shark">
+
+
+<button class="open-button" onclick="openForm()">Open Form</button>
+
+<div class="form-popup" id="signUp">
+  <form action="/action_page.php" class="form-container">
+    <h1>Login</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn">Login</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+
+<div id="shark" >
 <h2><span class="highlight">Shark</span></h2>
 <img class="pic" src="shark.jpg">
-<p class="intro">Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the clade Selachimorpha and are the sister group to the rays. </p>
+<p   class="intro" >Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head. Modern sharks are classified within the clade Selachimorpha and are the sister group to the rays. </p>
 </div>
 <div id="jelly">
 <h2><span class="highlight">Jellyfish</span></h2>
